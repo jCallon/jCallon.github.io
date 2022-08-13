@@ -7,6 +7,7 @@
 Certain held items are game-changing, but many of those held items are locked in post-game, so players don't know about them when just playing through the game casually. There's easily over 50 held items, but let's just go over some important ones.
 
 | Name | Effect | Common usage |
+| ---- | ------ | ------------ |
 | Eviolite | Raises unevolved Pokemon's defense stats by 50%. | Combined with IVs and EVs, which we'll get into later, lets [Chansey](https://www.serebii.net/pokedex-swsh/chansey/) have a higher defense and base stat total than [Blissey](https://www.serebii.net/pokedex-swsh/blissey/), making many actually prefer it over its evolution. |
 | Focus sash | If a Pokemon is at full health, lets it survive a move that would KO it with one health. | Guaranteeing\* glass cannons, such as (Gengar)[https://www.serebii.net/pokedex-swsh/gengar/], get to live 2 turns, and letting Pokemon release devasting reversals... such as [Reversal](https://www.serebii.net/attackdex-swsh/reversal.shtml). |
 | Life orb | Raises a Pokemon's damage output by 30%, at the cost of 10% HP each turn | Making speedy glass cannons with great offensive coverage, such as [Alakazam](https://www.serebii.net/pokedex-swsh/gengar/) hit *even harder*. Also has some interesting interactions with abilities I'll get into later. |
