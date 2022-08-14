@@ -7,6 +7,7 @@
 Perhaps you've fought Gym Leaders and thought, 'I'm just clicking one move and winning. How do they have their jobs?'. Gym leaders have some of the worst team composition, to teach you the strengths and weaknesses of each type before you have to fight a Champion, which will hopefully take more than clicking one move. ... Maybe 2, if you have [Dragon Dance](https://www.serebii.net/attackdex-sm/dragondance.shtml). There is no 'best team', but there are many aspects that go into making a good one.
 
 #### Diversity approach
+
 Prepare for everything. A Pokemon for each scenario.
 - Offensive diversity
   - You'll often hear this called 'offensive coverage'.
@@ -33,6 +34,7 @@ Prepare for everything. A Pokemon for each scenario.
   - Despite being attacks, priority moves are also a precious defensive resource to prevent you from being helpless to and getting swept by a speed-boosted Pokemon.
 
 #### Specialization approach
+
 Create a team so good at one thing it cannot be stopped. All Pokemon to capitalize on one scenario. Often, this is the approach of weather teams.
 - Offensive oppression
   - Deal the most damage possible at any time. The goal is to end the game quickly before your scenario, such as weather, ends, unles you have an easy way to extend it. Being super-effective is less of a concern when all your moves are around or above base 100 power, before STAB.
@@ -40,6 +42,10 @@ Create a team so good at one thing it cannot be stopped. All Pokemon to capitali
   - An example of abilties used is [Sand Force](https://www.serebii.net/abilitydex/sandforce.shtml) in sandstorm, to make STAB [Earthquake](https://www.serebii.net/attackdex-swsh/earthquake.shtml), [Iron Head](https://www.serebii.net/attackdex-swsh/ironhead.shtml), and [Stone Edge](https://www.serebii.net/attackdex-swsh/stoneedge.shtml) even more powerful.
 - Defensive oppression
   - Defense isn't so much of a concern, but moves like [Aurora Veil](https://www.serebii.net/attackdex-swsh/auroraveil.shtml), and sandstorm just providing a 1 stage Special Defense raise for certain types, helps.
+
+#### Mixed Approach
+
+You don't have to go strictly one approach or another, they're both jsut ends of a spectrum. Perhaps, you can make a team that's diverse, but has a hidden, potent sweeper in the back waiting to capitalize when the time is right, like [Linoone](https://www.serebii.net/pokedex-swsh/linoone/#) with [Gluttony](https://www.serebii.net/abilitydex/gluttony.shtml), an HP berry, [Belly Drum](https://www.serebii.net/attackdex-swsh/bellydrum.shtml), and STAB [Extremespeed](https://www.serebii.net/attackdex-swsh/extremespeed.shtml).
 
 ### Sources
 ... Just trust me bro. Sorry, This is a complex topic I'm weak at. But an important one.
