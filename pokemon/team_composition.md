@@ -34,11 +34,11 @@ Prepare for everything. A Pokemon for each scenario.
 
 #### Specialization approach
 Create a team so good at one thing it cannot be stopped. All Pokemon to capitalize on one scenario. Often, this is the approach of weather teams.
-- Offensive opression
-  - Deal the most damage possible at any time. The goal is to end the game quickly before your scenario, such as weather, ends, unles oyu have an easy way to extend it. Being super-effective is less of a concern when all your moves are around or above base 100 power, before STAB.
+- Offensive oppression
+  - Deal the most damage possible at any time. The goal is to end the game quickly before your scenario, such as weather, ends, unles you have an easy way to extend it. Being super-effective is less of a concern when all your moves are around or above base 100 power, before STAB.
   - An example of moves used are STAB [Hurricane](https://www.serebii.net/attackdex-swsh/hurricane.shtml) and [Weather Ball](https://www.serebii.net/attackdex-swsh/weatherball.shtml) in rain.
   - An example of abilties used is [Sand Force](https://www.serebii.net/abilitydex/sandforce.shtml) in sandstorm, to make STAB [Earthquake](https://www.serebii.net/attackdex-swsh/earthquake.shtml), [Iron Head](https://www.serebii.net/attackdex-swsh/ironhead.shtml), and [Stone Edge](https://www.serebii.net/attackdex-swsh/stoneedge.shtml) even more powerful.
-- Defensive opression
+- Defensive oppression
   - Defense isn't so much of a concern, but moves like [Aurora Veil](https://www.serebii.net/attackdex-swsh/auroraveil.shtml), and sandstorm just providing a 1 stage Special Defense raise for certain types, helps.
 
 ### Sources
