@@ -21,8 +21,8 @@ Common status effects:
 A few less common status effects:
 | Name | Description |
 | ---- | ----------- |
-| Infatuation | Some moves and abilities, such as (Attract)[https://www.serebii.net/attackdex-swsh/taunt.shtml] can inflict it. Gives 50% chance of immobility until the victim or the inflicter are switched out of faint. Relies on Pokemon being opposite genders to be able to inflict. |
-| Flinch | Many moves, such as (Air Slash)[https://www.serebii.net/attackdex-swsh/airslash.shtml], have a chance of dealing it. Gives 100% chance of immobility for the rest of the turn the victim was hit. Often paired with Paralysis. |
+| Infatuation | Some moves and abilities, such as [Attract](https://www.serebii.net/attackdex-swsh/taunt.shtml) can inflict it. Gives 50% chance of immobility until the victim or the inflicter are switched out or faint. Relies on Pokemon being opposite genders to be able to inflict. |
+| Flinch | Many moves, such as [Air Slash](https://www.serebii.net/attackdex-swsh/airslash.shtml), have a chance of dealing it. Gives 100% chance of immobility for the rest of the turn the victim was hit. Often paired with Paralysis. |
 | [Taunt](https://www.serebii.net/attackdex-swsh/taunt.shtml) | Makes a Pokemon unable to use status moves for 3 turns. |
 | [Encore](https://www.serebii.net/attackdex-swsh/encore.shtml) | Forces a Pokemon to reuse their last move for 3 turns. |
 | [Disable](https://www.serebii.net/attackdex-swsh/encore.shtml) | Prevents a Pokemon from using its last used move for 4 turns. |
