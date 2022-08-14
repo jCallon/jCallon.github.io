@@ -11,7 +11,7 @@ Terastal can be used once per battle and lasts until the end of battle, instead 
 Terastal does 3 things, while in effect:
 - Turn a Pokemon's type into a mono-type of its Tera type, determined by its IVs.
 - If the neither of the Pokemon's types were already that type, it gives moves of the Tera type normal STAB, in addition to its previous STAB types.
-- If the either of the Pokemon's types were already that type, instead of giving more types of STAB, it gives moves of the Tera boosted STAB. 
+- If the either of the Pokemon's types were already that type, instead of giving more types of STAB, it gives moves of the Tera type boosted STAB. 
 
 ### Sources
 - [Terastal phenomenon — Pokémon Scarlet and Pokémon Violet | Official Website](https://scarletviolet.pokemon.com/en-gb/news/terastal_phenomenon/)
