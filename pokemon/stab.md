@@ -4,8 +4,9 @@
 
 ### Body
 
-STAB stands for same type attack bonus. Whenever a Pokemon uses a move of its primary or secondary type, the base power of the move is increased by 50%.
-For example:
+STAB stands for same type attack bonus. Whenever a Pokemon uses a move of its primary or secondary type, the base power of the move is increased by 50%. If you're curious, it won't just apply to the first hit of multi-hit moves, but every hit, such as [Fury Swipes](https://www.serebii.net/attackdex-swsh/furyswipes.shtml) on [Persian](https://www.serebii.net/pokedex-swsh/persian/).
+
+As an example:
 - [Leech Life](https://www.serebii.net/attackdex-swsh/leechlife.shtml) is a base 80 power Bug type move. [Sludge Bomb](https://serebii.net/attackdex-swsh/sludgebomb.shtml) is a base 90 power Poison move.
 - [Crobat](https://www.serebii.net/pokedex-swsh/crobat/) is both Flying and Poison type. [Venomoth](https://www.serebii.net/pokedex-swsh/venomoth/) is both Bug and Poison type.
 - If Crobat uses Leech Life, it will have a base power of 80. If Venomoth uses Leech Life, it will have a base power of 120.
