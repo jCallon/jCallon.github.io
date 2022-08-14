@@ -6,7 +6,7 @@
 
 ![Pokemon type chart](https://img.pokemondb.net/images/typechart.png)
 
-[Pokemon Type Calculator] (https://www.pkmn.help/defense/?types=normal) is an excellent site to get summaries of types, even if you already know the type chart.
+[Pokemon Type Calculator](https://www.pkmn.help/defense/?types=normal) is an excellent site to get summaries of types, even if you already know the type chart.
 
 If you're already familiar with the type chart, here's some useful reminders:
 - Water both resists and deals neutral damage to Steel.
@@ -18,7 +18,6 @@ If you're not familiar, no worries! Each type has its own defensive and offensiv
 - Ghost type attacks, such as [Shadow Ball](https://www.serebii.net/attackdex-swsh/shadowball.shtml), deal double damage to Psychic and other Ghost types.
   - Ghost type attacks are `super effective` against Psychic and other Ghost types.
   - Psychic and Ghost type are `weak to` Ghost type attacks.
-- Ghost type Pokémon, such as [Cursola](https://www.serebii.net/pokedex-swsh/cursola/), take half damage from Poison and Bug type attacks.
 - Ghost type Pokémon, such as [Cursola](https://www.serebii.net/pokedex-swsh/cursola/), take half damage from Poison and Bug type attacks.
   - Poison and Bug type attacks are `not very effective` against Ghost types.
   - Ghost type `resists` Poison and Bug type attacks.
