@@ -27,14 +27,14 @@ If you're not familiar, no worries! Each type has its own defensive and offensiv
 
 In summary:
 - Defense
-  - At Grass and Rock have the most types deal double damage to them, at 5 each.
+  - Grass and Rock have the most types deal double damage to them, at 5 each.
   - Steel has the most types deal half damage to it, at 10.
   - Ghost is immune to the most types, at 2.
 - Offense
   - Fighting and Ground deal double damage to the most types, at 5 each.
   - Dragon deals half damage to the least types, at 1.
   - Grass and Bug deal half damage to the most types, at 7.
-- I feel bad for Grass types, but Sprigatito is too cute not to choose.
+- I feel bad for Grass types, but [Sprigatito](https://scarletviolet.pokemon.com/en-us/pokemon/sprigatito/) is too cute not to choose.
 
 ### Sources
 
