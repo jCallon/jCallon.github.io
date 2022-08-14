@@ -19,4 +19,5 @@ There's also abilties, that when used in conjunction with items and other mechan
 | [Technician](https://www.serebii.net/abilitydex/technician.shtml) | You moves with 60 power or less (before STAB) get a 1.5x damage boost. | Technician [Scisor](https://www.serebii.net/pokedex-swsh/scisor) is a classic. Pair a 130 base power Pokemon with a STAB boosted, technician boosted priority move like [Bullet Punch](https://www.serebii.net/attackdex-xy/bulletpunch.shtml)? It's far from a surprise anymore but it's still menacing. |
 
 ### Sources
-Sources already linked.
+You're going to have quite a journey ahead and handful to read, but if you want a list of all abilities, see here:
+- [Serebii.net AbilityDex](https://www.serebii.net/abilitydex/)
