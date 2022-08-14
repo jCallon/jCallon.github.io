@@ -4,7 +4,7 @@
 
 ### Body
 
-It might be pretty obvious when a Pokemon has its attack raised, its physical attacks do more damage. Understanding that at a glance is nice, but knowing the statistics is even nicer, and surprisingly easy. All stats are raised and lowered in 'stages', instead of by arbitrary percents. Of note: these calculations don't apply to evasion and accuracy.
+It might be pretty obvious when a Pokemon has its Attack raised, its physical attacks do more damage. Understanding that at a glance is nice, but knowing the statistics is even nicer, and surprisingly easy. All stats are raised and lowered in 'stages', instead of by arbitrary percents. Of note: these calculations don't apply to evasion and accuracy.
 
 Usually, the flavortext of a move will tell you how many stages it affects a stat by.
 - If it doesn't even mention stats, it probably doesn't affect any stats.
