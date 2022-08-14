@@ -16,5 +16,5 @@ Entry hazards are moves with effects that persist the entire battle, such as inf
 | [Sticky Web](https://www.serebii.net/attackdex-swsh/stickyweb.shtml) | Speed-dropping entry hazard. Does not affect Flying or Levitate Pokemon. No stacks, just use it once and each Pokemon that switches will start with their speed lowered by 1 stage. | If your opponent is all offense, they won't appreciate moving last any turn. And if your team is slow, they will appreciate having a chance to move first. |
 
 ### Sources
-- [Serebii.net Games - Entry Hazards](https://www.serebii.net/games/entryhazards.shtml)
 
+- [Serebii.net Games - Entry Hazards](https://www.serebii.net/games/entryhazards.shtml)

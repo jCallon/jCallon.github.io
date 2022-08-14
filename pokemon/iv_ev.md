@@ -33,4 +33,5 @@ It's ok to have Pokemon have low stats. You'd have to *try* to think of a reason
 Maybe you actually _want_ lowered stats, such as poor HP on a Pokemon using [Pain Split](https://www.serebii.net/attackdex-swsh/painsplit.shtml), poor Defenses on a Pokemon using [Counter](https://www.serebii.net/attackdex-swsh/counter.shtml) or [Mirror Coat](https://www.serebii.net/attackdex-swsh/mirrorcoat.shtml), poor Attack on something weak to [Foul Play](https://www.serebii.net/attackdex-swsh/foulplay.shtml) or that gets confused a lot, or poor Speed on a Pokemon using [Revenge](https://www.serebii.net/attackdex-swsh/revenge.shtml) or [Trick Room](https://www.serebii.net/attackdex-swsh/trickroom.shtml). It's all up to you! 
 
 ### Sources
+
 - [Stat - Bulbapedia, the community-driven Pokémon encyclopedia](https://bulbapedia.bulbagarden.net/wiki/Stat#Individual_values)

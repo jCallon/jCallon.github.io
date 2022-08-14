@@ -48,4 +48,5 @@ Create a team so good at one thing it cannot be stopped. All Pokemon to capitali
 You don't have to go strictly one approach or another, they're both just ends of a spectrum. Perhaps, you can make a team that's diverse, but has a hidden, potent sweeper in the back waiting to capitalize when the time is right, like [Linoone](https://www.serebii.net/pokedex-swsh/linoone/#) with [Gluttony](https://www.serebii.net/abilitydex/gluttony.shtml), an HP berry, [Belly Drum](https://www.serebii.net/attackdex-swsh/bellydrum.shtml), and STAB [Extremespeed](https://www.serebii.net/attackdex-swsh/extremespeed.shtml).
 
 ### Sources
+
 ... Just trust me bro. Sorry, This is a complex topic I'm weak at. But an important one.

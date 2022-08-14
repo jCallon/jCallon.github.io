@@ -30,4 +30,5 @@ If you like tables better:
 | Percent  | 25.0% | 28.6% | 33.3% | 40.0% | 50.0% | 66.6% | 100%  | 150%  | 200%  | 250%  | 300%  | 350%  | 400%  |
 
 ### Sources
+
 - [Stat - Bulbapedia, the community-driven Pokémon encyclopedia](https://bulbapedia.bulbagarden.net/wiki/Stat#Stat_modifiers)

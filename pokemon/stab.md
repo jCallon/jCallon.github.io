@@ -21,4 +21,5 @@ If you’re not good at math, just remember a 50% increase is the original plus 
   - `90 + 45 = 135`
 
 ### Sources
+
 - [Same-type attack bonus - Bulbapedia, the community-driven Pokémon encyclopedia](https://bulbapedia.bulbagarden.net/wiki/Same-type_attack_bonus)
