@@ -1,8 +1,10 @@
-# Type Chart
+---
+layout: post
+title: Type Chart
+subtitle: Types drastically affect damage.  
+---
 
-## Types drastically affect damage.  
-
-### Body 
+# Body 
 
 ![Pokemon type chart](https://img.pokemondb.net/images/typechart.png)
 
@@ -36,7 +38,7 @@ In summary:
   - Grass and Bug deal half damage to the most types, at 7.
 - I feel bad for Grass types, but [Sprigatito](https://scarletviolet.pokemon.com/en-us/pokemon/sprigatito/) is too cute not to choose.
 
-### Sources
+# Sources
 
 - [Type - Bulbapedia, the community-driven Pokémon encyclopedia](https://bulbapedia.bulbagarden.net/wiki/Type)
-- [Pokémon type chart: strengths and weaknesses | Pokémon Database](https://pokemondb.net/type)
+- [Pokémon type chart: strengths and weaknesses \| Pokémon Database](https://pokemondb.net/type)

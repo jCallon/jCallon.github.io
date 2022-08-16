@@ -1,8 +1,10 @@
-# Entry Hazards
+---
+layout: post
+title: Entry Hazards
+subtitle: One of the staples of competetive Pokemon.
+---
 
-## One of the staples of competetive Pokemon.
-
-### Body
+# Body
 
 Have you ever wanted to deal damage without reading your opponent, or perhaps without even attacking? I introduce you to your new love, entry hazards. Sorry, I hope my distaste for these doesn't make the text unreadable.
 
@@ -15,6 +17,6 @@ Entry hazards are moves with effects that persist the entire battle, such as inf
 | [Stealth Rock](https://www.serebii.net/attackdex-swsh/stealthrock.shtml) | Damage-dealing entry hazard. Does not have immunities or stacks, instead doing 1/8 max health, multiplied by the victim's Rock resistance/weakness. For example, at a 4x Rock weakness, it does `1 / 8 * 4 = 1 / 2` max health. | Flying, Bug, Fire, Ice, and/or [Sturdy](https://www.serebii.net/abilitydex/sturdy.shtml)/[Focus Sash](https://www.serebii.net/itemdex/focussash.shtml) begone. Those Pokemon with 2 HP left will probably need to be sacked, because they'll faint if they switch back in. |
 | [Sticky Web](https://www.serebii.net/attackdex-swsh/stickyweb.shtml) | Speed-dropping entry hazard. Does not affect Flying or Levitate Pokemon. No stacks, just use it once and each Pokemon that switches will start with their speed lowered by 1 stage. | If your opponent is all offense, they won't appreciate moving last any turn. And if your team is slow, they will appreciate having a chance to move first. |
 
-### Sources
+# Sources
 
 - [Serebii.net Games - Entry Hazards](https://www.serebii.net/games/entryhazards.shtml)

@@ -1,8 +1,10 @@
-# Hold Items
+---
+layout: post
+title: Hold Items
+subtitle: The things you didn't know you wanted until you couldn't live without them.
+---
 
-## The things you didn't know you wanted until you couldn't live without them.
-
-### Body
+# Body
 
 Certain held items are game-changing, but many of those held items are locked in post-game, so players don't know about them when just playing through the game casually. There's easily over 50 held items, but let's just go over some important ones.
 
@@ -18,7 +20,7 @@ Certain held items are game-changing, but many of those held items are locked in
 | Custap berry | When at low health, raises next attack's speed priority by 1. | Great on [Endure](https://serebii.net/attackdex-xy/endure.shtml) or [Sturdy](https://www.serebii.net/abilitydex/sturdy.shtml) pokemon without access to priority moves for flipping the tide of battle. |
 | Power herb | Skips charging time for 1 move. | Was a *very* popular item on [Xerneas](https://www.serebii.net/pokedex-swsh/xerneas/), let it use [Geomancy](https://www.serebii.net/attackdex-swsh/geomancy.shtml) in one turn, which let its next [Moonblast](https://www.serebii.net/attackdex-swsh/moonblast.shtml) deal `95 * Fairy Aura * STAB * 2 stage SP.ATK boost = 380` base power, not even mentioning Xerneas' double special defense and speed. 
 
-### Sources
+# Sources
 
 For more items and better descriptions see here!
 -  [Serebii.net ItemDex - Hold Item](https://www.serebii.net/itemdex/list/holditem.shtml)
