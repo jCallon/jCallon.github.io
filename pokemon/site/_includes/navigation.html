@@ -1,5 +1,7 @@
 <nav>
-  {% for post in site.posts %}
-      <a href="{{ post.url }}" {% if page.url == post.url %}class="current"{% endif %}>{{ post.title }}</a>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
   {% endfor %}
 </nav>

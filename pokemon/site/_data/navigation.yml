@@ -1,32 +1,32 @@
 - name: Home
   link: /
 - name: 'The Cheatsheet'
-  link: /cheatsheet.html
+  link: /pokemon/cheatsheet.html
 - name: Type Chart
-  link: /type_chart.html
+  link: /pokemon/type_chart.html
 - name: STAB
-  link: /stab.html
+  link: /pokemon/stab.html
 - name: Terastal
-  link: /terastal.html
+  link: /pokemon/terastal.html
 - name: Stat Multipliers
-  link: /stat_multipliers.html
+  link: /pokemon/stat_multipliers.html
 - name: Status Effects
-  link: /status_effects.html
+  link: /pokemon/status_effects.html
 - name: Priority
-  link: /priority.html
+  link: /pokemon/priority.html
 - name: Abilities
-  link: /abilities.html
+  link: /pokemon/abilities.html
 - name: Hold Items
-  link: /hold_items.html
+  link: /pokemon/hold_items.html
 - name: Team Composition
-  link: /team_composition.html
+  link: /pokemon/team_composition.html
 - name: Natures
-  link: /natures.html
+  link: /pokemon/natures.html
 - name: IVs and EVs
-  link: /iv_ev.html
+  link: /pokemon/ivs_and_evs.html
 - name: Entry Hazards
-  link: /entry_hazards.html
+  link: /pokemon/entry_hazards.html
 - name: Terrain
-  link: /terrain.html
+  link: /pokemon/terrain.html
 - name: Weather
-  link: /weather.html
+  link: /pokemon/weather.html
