@@ -1,3 +1,7 @@
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+// The available variables can be found here. https://github.com/twbs/bootstrap-rubygem/blob/main/assets/stylesheets/bootstrap/_variables.scss
+//@import "bootstrap";
+
 .current {
   color: green;
 }

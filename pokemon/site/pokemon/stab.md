@@ -4,8 +4,6 @@ title: STAB
 subtitle: Same type attack bonus.
 ---
 
-# Body
-
 STAB stands for same type attack bonus. Whenever a Pokemon uses a move of its primary or secondary type, the base power of the move is increased by 50%. If you're curious, it won't just apply to the first hit of multi-hit moves, but every hit, such as [Fury Swipes](https://www.serebii.net/attackdex-swsh/furyswipes.shtml) on [Persian](https://www.serebii.net/pokedex-swsh/persian/).
 
 As an example:
@@ -22,6 +20,6 @@ If you’re not good at math, just remember a 50% increase is the original plus 
   - `90 + ( 90 / 2 ) = 135`
   - `90 + 45 = 135`
 
-# Sources
+### Sources
 
 - [Same-type attack bonus - Bulbapedia, the community-driven Pokémon encyclopedia](https://bulbapedia.bulbagarden.net/wiki/Same-type_attack_bonus)

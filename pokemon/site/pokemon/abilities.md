@@ -4,12 +4,11 @@ title: Abilities
 subtitle: What make Pokemon unique.
 ---
 
-# Body
-
 A mechanic sorely (to me) missing from Pokemon Legends: Arceus and Pokemon GO is abilities. There's classic, straighforward abilities most casual players have felt, like [Levitate](https://www.serebii.net/abilitydex/levitate.shtml) and [Run Away](https://www.serebii.net/abilitydex/runaway.shtml).
 
 There's also abilties, that when used in conjunction with items and other mechanics, are quite powerful. Here's some of them.
 
+{: .table .table-striped}
 | Name | Description | Common use  |
 | ---- | ----------- | ----------- |
 | [Sheer Force](https://www.serebii.net/abilitydex/sheerforce.shtml) | Your moves have their secondary effects replaced with a 1.3x power boost. | Stacking this ability with [Life Orb](https://www.serebii.net/itemdex/lifeorb.shtml), Nidoking can deal a base `90 * STAB * life orb (1.3) * sheer force (1.3) = 228.15` Earth Power with no Life Orb recoil, and without being locked into a move from Choice Band. |
@@ -20,7 +19,7 @@ There's also abilties, that when used in conjunction with items and other mechan
 | [Intimidate](https://www.serebii.net/abilitydex/intimidate.shtml) | On entry, you reduce all enemy's attack by 1 stage. | A classic ability, great in doubles on [Hitmontop](https://www.serebii.net/pokedex-swsh/hitmontop) and others. Your Pokemon doesn't even need to move to reduce damage to your team. |
 | [Technician](https://www.serebii.net/abilitydex/technician.shtml) | You moves with 60 power or less (before STAB) get a 1.5x damage boost. | Technician [Scisor](https://www.serebii.net/pokedex-swsh/scisor) is a classic. Pair a 130 base power Pokemon with a STAB boosted, technician boosted priority move like [Bullet Punch](https://www.serebii.net/attackdex-xy/bulletpunch.shtml)? It's far from a surprise anymore but it's still menacing. |
 
-# Sources
+### Sources
 
 You're going to have quite a journey ahead and handful to read, but if you want a list of all abilities, see here:
 - [Serebii.net AbilityDex](https://www.serebii.net/abilitydex/)

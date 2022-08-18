@@ -4,11 +4,9 @@ title: Team Composition
 subtitle: The most obvious but hardest part of it all.
 ---
 
-# Body
-
 Perhaps you've fought Gym Leaders and thought, 'I'm just clicking one move and winning. How do they have their jobs?'. Gym leaders have some of the worst team composition, to teach you the strengths and weaknesses of each type before you have to fight a Champion, which will hopefully take more than clicking one move. ... Maybe 2, if you have [Dragon Dance](https://www.serebii.net/attackdex-sm/dragondance.shtml). There is no 'best team', but there are many aspects that go into making a good one.
 
-## Diversity approach
+#### Diversity approach
 
 Prepare for everything. A Pokemon for each scenario.
 - Offensive diversity
@@ -35,7 +33,7 @@ Prepare for everything. A Pokemon for each scenario.
     - Having the defenses to be able to tank hits while you stat-boost or inflict status conditions can make your Pokemon deal damage just as well as it takes it.
   - Despite being attacks, priority moves are also a precious defensive resource to prevent you from being helpless to and getting swept by a speed-boosted Pokemon.
 
-## Specialization approach
+#### Specialization approach
 
 Create a team so good at one thing it cannot be stopped. All Pokemon to capitalize on one scenario. Often, this is the approach of weather teams.
 - Offensive oppression
@@ -45,10 +43,10 @@ Create a team so good at one thing it cannot be stopped. All Pokemon to capitali
 - Defensive oppression
   - Defense isn't so much of a concern, but moves like [Aurora Veil](https://www.serebii.net/attackdex-swsh/auroraveil.shtml), and sandstorm just providing a 1 stage Special Defense raise for certain types, helps.
 
-## Mixed Approach
+#### Mixed Approach
 
 You don't have to go strictly one approach or another, they're both just ends of a spectrum. Perhaps, you can make a team that's diverse, but has a hidden, potent sweeper in the back waiting to capitalize when the time is right, like [Linoone](https://www.serebii.net/pokedex-swsh/linoone/#) with [Gluttony](https://www.serebii.net/abilitydex/gluttony.shtml), an HP berry, [Belly Drum](https://www.serebii.net/attackdex-swsh/bellydrum.shtml), and STAB [Extremespeed](https://www.serebii.net/attackdex-swsh/extremespeed.shtml).
 
-# Sources
+### Sources
 
 ... Just trust me bro. Sorry, This is a complex topic I'm weak at. But an important one.

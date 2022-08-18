@@ -4,8 +4,6 @@ title: Stat Multipliers
 subtitle: Stats raise and lower by 'stages'.
 ---
 
-# Body
-
 It might be pretty obvious when a Pokemon has its Attack raised, its physical attacks do more damage. Understanding that at a glance is nice, but knowing the statistics is even nicer, and surprisingly easy. All stats are raised and lowered in 'stages', instead of by arbitrary percents. Of note: these calculations don't apply to evasion and accuracy.
 
 Usually, the flavortext of a move will tell you how many stages it affects a stat by.
@@ -27,11 +25,17 @@ Numerically:
 
 If you like tables better:
 
-| Stage    | -6    | -5    | -4    | -3    | -2    | -1    | 0     | +1    | +2    | +3    | +4    | +5    | +6    |
-| -------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Fraction | `2/8` | `2/7` | `2/6` | `2/5` | `2/4` | `2/3` | `2/2` | `3/2` | `4/2` | `5/2` | `6/2` | `7/2` | `8/2` |
-| Percent  | 25.0% | 28.6% | 33.3% | 40.0% | 50.0% | 66.6% | 100%  | 150%  | 200%  | 250%  | 300%  | 350%  | 400%  |
+{: .table .table-striped}
+| Stage    | -6    | -5    | -4    | -3    | -2    | -1    |
+| -------- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Fraction | `2/8` | `2/7` | `2/6` | `2/5` | `2/4` | `2/3` |
+| Percent  | 25.0% | 28.6% | 33.3% | 40.0% | 50.0% | 66.6% |
+| -------- | ----- | ----- | ----- | ----- | ----- | ----- |
+|          | +6    | +5    | +4    | +3    | +2    | +1    |
+| -------- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Fraction | `8/2` | `7/2` | `6/2` | `5/2` | `4/2` | `3/2` |
+| Percent  | 400%  | 350%  | 300%  | 250%  | 200%  | 150%  |
 
-# Sources
+### Sources
 
 - [Stat - Bulbapedia, the community-driven Pokémon encyclopedia](https://bulbapedia.bulbagarden.net/wiki/Stat#Stat_modifiers)

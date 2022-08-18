@@ -4,10 +4,6 @@ title: 'The Cheatsheet'
 subtitle: A tool to help inform your decisions.
 ---
 
-# Body
-
-
-
-# Sources
+### Sources
 
 

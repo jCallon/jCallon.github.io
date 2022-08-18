@@ -4,8 +4,6 @@ title: IVs and EVs
 subtitle: Ways to permanently modify your Pokemon's stats.
 ---
 
-# Body
-
 Get on your inch-thick glasses and hunch that back! If you want to take advantage of this in a mainline game, it's grinding time!
 
 IVs (inherited values) and EVs (effort values) are numeric values that let you permanently modify a Pokemon's stats. How much it modifies your Pokemon's stats scales with level, level 100 seeing the greatest impact. The math is complicated, so go to Teambuilder on [Pokemon Showdown](https://play.pokemonshowdown.com/) to see how much certain IVs and EVs mean at certain levels. In summary, they can be the difference between a level 50 modest [Gengar](https://www.serebii.net/pokedex-swsh/gengar/) having 148 and 199 special attack!
@@ -34,6 +32,6 @@ It's ok to have Pokemon have low stats. You'd have to *try* to think of a reason
 
 Maybe you actually _want_ lowered stats, such as poor HP on a Pokemon using [Pain Split](https://www.serebii.net/attackdex-swsh/painsplit.shtml), poor Defenses on a Pokemon using [Counter](https://www.serebii.net/attackdex-swsh/counter.shtml) or [Mirror Coat](https://www.serebii.net/attackdex-swsh/mirrorcoat.shtml), poor Attack on something weak to [Foul Play](https://www.serebii.net/attackdex-swsh/foulplay.shtml) or that gets confused a lot, or poor Speed on a Pokemon using [Revenge](https://www.serebii.net/attackdex-swsh/revenge.shtml) or [Trick Room](https://www.serebii.net/attackdex-swsh/trickroom.shtml). It's all up to you! 
 
-# Sources
+### Sources
 
 - [Stat - Bulbapedia, the community-driven Pokémon encyclopedia](https://bulbapedia.bulbagarden.net/wiki/Stat#Individual_values)

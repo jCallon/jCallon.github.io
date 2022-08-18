@@ -4,8 +4,6 @@ title: Priority
 subtitle: Having a priority move on your team can be the difference between a win or a loss.
 ---
 
-# Body
-
 You might already know some moves make a Pokemon 'go first'. That's not the truth, just a generalization, but the whole truth isn't so bad to learn.
 
 There's the normal speed stat, faster Pokemon goes first that turn, etc.. Yes, that makes sense. What takes a bit more understanding is 'speed bracket's. Most moves are bracket 0. A move that says it 'goes first', like [Quick Attack](https://www.serebii.net/attackdex-swsh/quickattack.shtml), is usually bracket +1, the bracket right above.
@@ -26,6 +24,6 @@ What use is all this?
 - The normally unremearkable [Linoone](https://www.serebii.net/pokedex-swsh/arceus/) becomes a *terrifying beast* when it uses [Belly Drum](https://www.serebii.net/attackdex-swsh/bellydrum.shtml) then STAB Extremespeed.
 - If an enemy Pokemon has boosted speed and offense, and you aren't packing any items or abilties that let you take a hit with guarantee of not fainting, priority moves might be your only chance of knocking it out before it faints your whole team.
 
-# Sources
+### Sources
 
 All sources are already linked.
