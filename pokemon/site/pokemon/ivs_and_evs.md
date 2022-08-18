@@ -8,7 +8,7 @@ Get on your inch-thick glasses and hunch that back! If you want to take advantag
 
 IVs (inherited values) and EVs (effort values) are numeric values that let you permanently modify a Pokemon's stats. How much it modifies your Pokemon's stats scales with level, level 100 seeing the greatest impact. The math is complicated, so go to Teambuilder on [Pokemon Showdown](https://play.pokemonshowdown.com/) to see how much certain IVs and EVs mean at certain levels. In summary, they can be the difference between a level 50 modest [Gengar](https://www.serebii.net/pokedex-swsh/gengar/) having 148 and 199 special attack!
 
-## IVs
+#### IVs
 
 IVs are (historically) constant numbers assigned to your Pokemon at catch or birth, ranging from 0 to 31 in each stat. Higher number means higher stat. If you've ever wondered why people breed a lot of the same Pokemon, they could be shiny-hunting, or it could be because they are trying to manipulate IVs and natures.
 
@@ -16,7 +16,7 @@ Hatched Pokemon will have IVs between their parents', and almost always be the s
 
 With 0 EVs, 31 IVs is the difference between a level 50 modest Gengar having 148 or 165 special attack.
 
-## EVs
+#### EVs
 
 In new games, EVs can be changed any time over the life of a Pokemon, ranging from 0-252 on each stat, capping at a 508 total. I lied, it's 255 each and a 512 cap, but only full mutliples of 4 are counted and actually matter, giving you the tiniest bit of wiggle room. If you've ever wondered why someone was seeking and fainting hordes of Bidoofs like they deserve to be exterminated from the world, the were probably trying to train/raise a Pokemon's HP EV.
 
@@ -26,7 +26,7 @@ Triggering hordes with power items is by far the best way to get the highest yie
 
 With 0 IVs, 252+ EVs is the difference between a level 50 modest Gengar having 148 and 182 special attack.
 
-## Bigger isn't always better
+#### Bigger isn't always better
 
 It's ok to have Pokemon have low stats. You'd have to *try* to think of a reason for a [Shedinga](https://www.serebii.net/pokedex-swsh/shedinja/) to care about Defense. It's up to you to determine the worth of all this hard-core breeding and training, the aforementioned Teambuilder being a great tool to see how much each point actually matters.
 
