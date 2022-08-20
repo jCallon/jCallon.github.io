@@ -2,31 +2,67 @@
   link: /
 - name: 'The Cheatsheet'
   link: /pokemon/cheatsheet.html
+  examples:
 - name: Type Chart
   link: /pokemon/type_chart.html
+  examples:
+  - [type_chart.mp4, "By becoming a Psychic type, Porygon took 1/4 as much damage from the same attack!"]
 - name: STAB
   link: /pokemon/stab.html
+  examples:
+  - [stab.mp4, "By becoming an Ice type, Porygon's same Ice type move suddenly dealt 1.5x damage."]
 - name: Terastal
   link: /pokemon/terastal.html
+  examples:
 - name: Stat Multipliers
   link: /pokemon/stat_multipliers.html
+  examples:
+  - [stat_multipliers.mp4, "You'd think the Hariyama would have it in the bag, spamming strong moves, but the defensive Mienfoo perserveres."]
 - name: Status Effects
   link: /pokemon/status_effects.html
+  examples:
+  - [burn.mp4, "This Octillery utilizes both burn's damage reduction and passive damage to beat a Haxorus with no lost health."]
+  - [paralyze.mp4, "A Swampert suddenly slower than a Dunsparce... How embarassing..."]
+  - [encore.mp4, "Oh, you want to poison me? By all means."]
 - name: Priority
   link: /pokemon/priority.html
+  examples:
+  - [fear.mp4, "Behold, true FEAR. A smart level 1 Rattata can beat a dumb level 100 Arceus."]
+  - [linoone.mp4, "Extreme Speed is speed priority +2, only 3 other attacks in the game can outspeed it! Do not understimate Linoone!"]
 - name: Abilities
   link: /pokemon/abilities.html
+  examples:
+  - [guts.mp4, "Please, burn the Guts Ursaring, it makes its Facade deal 3 times damage!"]
+  - [prankster.mp4, "If you hate having an enemy have 2x defense, wait until you see Prankster Whimiscott get 2.5x as a priority move!"]
+  - [serene_grace.mp4, "What's more embarassing than being outsped by a Dunsparce? Serene Grace Dunsparce paraflinching you to death."]
 - name: Hold Items
   link: /pokemon/hold_items.html
+  examples:
+  - [life_orb.mp4, "The Nidoking on the left is a Nidoking with a Life Orb and Sheer Force will deal over 1.5x of the Nidoking on the right with neither."]
+  - [weakness_policy.mp4, "No u."]
+  - [custap_berry.mp4, "Meet FEAR Rattata's kaiju cousin."]
 - name: Team Composition
   link: /pokemon/team_composition.html
+  examples:
+  - [team_composition.mp4, "Offense is great, but never underestimate the value of defense and prediction."]
 - name: Natures
   link: /pokemon/natures.html
+  examples:
+  - [natures.mp4, "Natures boost one stat and lower another by 10%, sometimes the same stat."]
 - name: IVs and EVs
   link: /pokemon/ivs_and_evs.html
+  examples:
+  - [ivs.mp4, "See how much IVs affect any Pokemon's stats. Its effect varies with level."]
+  - [evs.mp4, "See how much EVs affect any Pokemon's stats. Its effect varies with level."]
+  - [ivs_evs_natures.mp4, "Here you can see natures apply after IVs and EVs, instead of before."]
 - name: Entry Hazards
   link: /pokemon/entry_hazards.html
+  examples:
+  - [entry_hazards.mp4, "Behold, suffering."]
 - name: Terrain
   link: /pokemon/terrain.html
+  examples:
 - name: Weather
   link: /pokemon/weather.html
+  examples:
+  - [rain.mp4, "With weather and max attack investment, Elektivire gets OHKOed by Pelliper instead of OKHOing it."]

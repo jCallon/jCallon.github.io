@@ -5,7 +5,7 @@
       {% for item in site.data.navigation %}
         {% if page.url == item.link %}
           {% if forloop.first -%}
-            <a class="col btn btn-primary" disabled role="button">
+            <a class="col btn btn-secondary" disabled role="button">
               &larr; N/A
             </a>
           {% else -%}
@@ -22,7 +22,7 @@
       {% for item in site.data.navigation %}
         {% if page.url == item.link %}
           {% if forloop.last -%}
-            <a class="col btn btn-primary" disabled role="button">
+            <a class="col btn btn-secondary" disabled role="button">
               N/A &rarr;
             </a>
           {% else -%}

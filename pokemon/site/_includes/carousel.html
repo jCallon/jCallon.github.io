@@ -1,0 +1,62 @@
+{% for item in site.data.navigation %}
+
+  {% if page.url == item.link %}
+
+    {% assign examples = item.examples %}
+
+    {% if examples.size > 0 %}
+    <div id="media-carousel" 
+      class="container carousel slide"
+      style="max-width: 550px"
+      data-bs-ride="carousel"
+      data-bs-interval="false">
+
+        {% if examples.size > 1 %}
+            <div class="carousel-indicators">
+                {% for example in examples %}
+                    <button type="button"
+                      data-bs-target="#media-carousel"
+                      data-bs-slide-to="{{ forloop.index }}" 
+                      aria-label="Slide {{ forloop.index }}">
+                    </button>
+                {% endfor %}
+            </div>
+        {% endif %}
+        
+        <div class="carousel-inner">
+            {% for example in examples %}
+                <div class="carousel-item{% if forloop.first%} active{% endif %}">
+                    <video class="d-block w-100" controls muted>
+                        <source src="examples/{{ example[0] }}"
+                          type="video/mp4"
+                          alt="{{ example[0] }}">
+                    </video>
+                    <div class="carousel-caption" style="top: 0">{{ example[1] }}</div>
+                </div>
+            {% endfor %}
+        </div>
+
+        {% if examples.size > 1 %}
+            <button class="carousel-control-prev" 
+              type="button" 
+              data-bs-target="#media-carousel"
+              data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next"
+              type="button"
+              data-bs-target="#media-carousel"
+              data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        {% endif %}
+
+    </div>
+    {% endif %}
+
+  {% endif %}
+
+{% endfor %}
