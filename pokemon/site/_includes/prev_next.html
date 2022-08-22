@@ -1,6 +1,6 @@
 <div class="container">
 
-    <div class="row aligm-items-start">
+    <div class="row align-items-start">
 
       {% for item in site.data.navigation %}
         {% if page.url == item.link %}
@@ -8,7 +8,7 @@
             <a class="col btn btn-secondary" disabled role="button">
               &larr; N/A
             </a>
-          {% else -%}
+          {% else %}
             {% assign prev = forloop.index0 | minus: 1 %}
             <a class="col btn btn-primary"
               href="{{ site.data.navigation[prev].link  }}"
@@ -19,13 +19,34 @@
         {% endif %}
       {% endfor %}
 
+      <div class="col dropdown" style="padding: 0">
+        <a class="btn btn-secondary dropdown-toggle" 
+          style="width: 100%"
+          type="button"
+          id="nav-dropdown"
+          data-bs-toggle="dropdown"
+          aria-expanded="false">
+          All Pages
+        </a>
+        <ul class="dropdown-menu" style="width: 100%" aria-labelledby="nav-dropdown">
+          {% for item in site.data.navigation %}
+            <li>
+              <a class="dropdown-item{% if page.url == item.link %} active{% endif %}"
+                href="{{ item.link }}">
+                {{ item.name }}
+              </a>
+            <li>
+          {% endfor %}
+        </ul>
+      </div>
+
       {% for item in site.data.navigation %}
         {% if page.url == item.link %}
-          {% if forloop.last -%}
+          {% if forloop.last %}
             <a class="col btn btn-secondary" disabled role="button">
               N/A &rarr;
             </a>
-          {% else -%}
+          {% else %}
             {% assign next = forloop.index0 | plus: 1 %}
             <a class="col btn btn-primary"
               href="{{ site.data.navigation[next].link  }}"
