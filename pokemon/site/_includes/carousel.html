@@ -7,7 +7,7 @@
     {% if examples.size > 0 %}
     <div id="media-carousel" 
       class="container carousel slide bg-dark"
-      style="max-width: calc(550px + (2 * 15%)); margin-top: 15px; margin-bottom: 15px; border-radius: 10px"
+      style="margin-top: 15px; margin-bottom: 15px; border-radius: 10px"
       data-bs-ride="carousel"
       data-bs-interval="false">
 
@@ -31,7 +31,7 @@
                   data-bs-interval="100000">
                     <!--<button class="active" id"play-button" onclick>Play</button>-->
                     <video class="d-block bg-dark"
-                      style="margin: auto; height: 450px;"
+                      style="margin: auto; width: 70%; max-height: 450px;"
                       controls
                       muted>
                         <source src="examples/{{ example[0] }}"
@@ -39,7 +39,7 @@
                           alt="{{ example[0] }}">
                     </video>
                     <div class="carousel-caption bg-dark"
-                      style="position: relative; top: 0; left: 0; right: 0; padding: 1rem; height: 5rem">
+                      style="position: relative; top: 0; left: 0; right: 0; padding: 1rem">
                           {{ example[1] }}
                     </div>
                 </div>
