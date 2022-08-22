@@ -6,11 +6,12 @@
 
     {% if examples.size > 0 %}
     <div id="media-carousel" 
-      class="container carousel slide"
-      style="max-width: 550px"
+      class="container carousel slide bg-dark"
+      style="max-width: calc(550px + (2 * 15%)); margin-top: 15px; margin-bottom: 15px; border-radius: 10px"
       data-bs-ride="carousel"
       data-bs-interval="false">
 
+      <!--
         {% if examples.size > 1 %}
             <div class="carousel-indicators">
                 {% for example in examples %}
@@ -22,22 +23,32 @@
                 {% endfor %}
             </div>
         {% endif %}
+      -->
         
         <div class="carousel-inner">
             {% for example in examples %}
-                <div class="carousel-item{% if forloop.first%} active{% endif %}">
-                    <video class="d-block w-100" controls muted>
+                <div class="carousel-item{% if forloop.first %} active{% endif %}"
+                  data-bs-interval="100000">
+                    <!--<button class="active" id"play-button" onclock>Play</button>-->
+                    <video class="d-block bg-dark"
+                      style="margin: auto; height: 450px;"
+                      controls
+                      muted>
                         <source src="examples/{{ example[0] }}"
                           type="video/mp4"
                           alt="{{ example[0] }}">
                     </video>
-                    <div class="carousel-caption" style="top: 0">{{ example[1] }}</div>
+                    <div class="carousel-caption bg-dark"
+                      style="position: relative; top: 0; left: 0; right: 0; padding: 1rem; height: 5rem">
+                          {{ example[1] }}
+                    </div>
                 </div>
             {% endfor %}
         </div>
 
         {% if examples.size > 1 %}
             <button class="carousel-control-prev" 
+                style="z-index: 0"
               type="button" 
               data-bs-target="#media-carousel"
               data-bs-slide="prev">
