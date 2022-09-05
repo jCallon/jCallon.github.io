@@ -16,20 +16,19 @@
   <body class="bg-dark">
     
     <div class="container-sm bg-light" 
-      style="margin-top: 15px; margin-bottom: 15px; padding-top: 15px; padding-bottom: 15px; border-radius: 5px">
+      style="margin-top: 15px; margin-bottom: 15px; padding: 15px; border-radius: 5px">
 
         {% include prev_next.html %}
         <hr>
     
         <h1>{{ page.title }}</h1>
         <h2>{{ page.subtitle }}</h2>
-        <h3>{{ page.date | date_to_string }}</h3>
+        <!-- <p style="color: gray" id="lastModified">Last updated: </p> -->
+        <hr>
 
         {% include carousel.html %}
 
-        <div class="container">
-            {{ content | markdownify }}
-        </div>
+        {{ content | markdownify }}
 
         <!--
         <div id="sources">
@@ -51,6 +50,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script>
+// Fill lastModified
+//document.getElementById("lastModified").innerHTML += document.lastModified;
+
 // Wrap all tables in table-responsive div (can't be done from .md without... consequences)
 var tables = document.getElementsByClassName("table");
 const num_tables = tables.length;

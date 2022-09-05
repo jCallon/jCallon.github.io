@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>My Website Title</title>
+    </head>
+    <body>
+        <h1>Hello world!</h1>
+        <h2>Welcome to my first web page!</h2>
+        <p>Here's a <a href="#">link to recipes</a>. These are my favorite foods:</p>
+        <ul>
+            <li>Tomatoes</li>
+            <li>Feta</li>
+            <li>Pesto</li>
+            <li>Beans</li>
+        </ul>
+        <form>
+            <p>Which of these do you like most?</p>
+            <select>
+                <option>Tomatoes</option>
+                <option>Feta</option>
+                <option>Pesto</option>
+                <option>Beans</option>
+            </select>
+            <p>Other:</p>
+            <input type="text"></input>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

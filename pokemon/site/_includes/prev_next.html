@@ -1,19 +1,29 @@
+{% assign nav = site.data.navigation %}
+{% if page.dir == '/archaic_web_dev/' %}
+  {% assign nav = nav.archaic_web_dev %}
+{% elsif page.dir == '/pokemon/' %}
+  {% assign nav = nav.pokemon %}
+{% endif %}
+
+{% assign page_name = page.name | split: '.' %}
+{% assign page_name = page_name[0] | append: '.html' %}
+
 <div class="container">
 
     <div class="row align-items-start">
 
-      {% for item in site.data.navigation %}
-        {% if page.url == item.link %}
-          {% if forloop.first -%}
+      {% for item in nav %}
+        {% if page_name == item.link %}
+          {% if forloop.first %}
             <a class="col btn btn-secondary" disabled role="button">
               &larr; N/A
             </a>
           {% else %}
             {% assign prev = forloop.index0 | minus: 1 %}
             <a class="col btn btn-primary"
-              href="{{ site.data.navigation[prev].link  }}"
+              href="{{ page.dir | append: nav[prev].link  }}"
               role="button">
-              &larr; {{ site.data.navigation[prev].name }}
+              &larr; {{ nav[prev].name }}
             </a>
           {% endif %}
         {% endif %}
@@ -29,10 +39,11 @@
           All Pages
         </a>
         <ul class="dropdown-menu" style="width: 100%" aria-labelledby="nav-dropdown">
-          {% for item in site.data.navigation %}
+            <li> <a class="dropdown-item" href="/"> Home </a> <li>
+          {% for item in nav %}
             <li>
-              <a class="dropdown-item{% if page.url == item.link %} active{% endif %}"
-                href="{{ item.link }}">
+              <a class="dropdown-item{% if page_name == item.link %} active{% endif %}"
+                href="{{ page.dir | append: item.link }}">
                 {{ item.name }}
               </a>
             <li>
@@ -40,8 +51,8 @@
         </ul>
       </div>
 
-      {% for item in site.data.navigation %}
-        {% if page.url == item.link %}
+      {% for item in nav %}
+        {% if page_name == item.link %}
           {% if forloop.last %}
             <a class="col btn btn-secondary" disabled role="button">
               N/A &rarr;
@@ -49,9 +60,9 @@
           {% else %}
             {% assign next = forloop.index0 | plus: 1 %}
             <a class="col btn btn-primary"
-              href="{{ site.data.navigation[next].link  }}"
+              href="{{ page.dir | append: nav[next].link  }}"
               role="button">
-              {{ site.data.navigation[next].name }} &rarr;
+              {{ nav[next].name }} &rarr;
             </a>
           {% endif %}
         {% endif %}

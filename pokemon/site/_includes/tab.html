@@ -1,0 +1,31 @@
+<div style="border: 1px solid #dee2e6; margin-bottom: 15px; border-radius: 5px">
+  <ul class="nav nav-tabs" id="{{ include.name }}Tab" role="tablist">
+    {% for tab in include.tab %}
+      <li class="nav-item" role="presentation">
+        <button 
+          class="nav-link{% if forloop.first %} active{% endif %}"
+          id="{{ include.name }}-{{ tab }}-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#{{ include.name }}-{{ tab }}-tab-pane"
+          type="button"
+          role="tab"
+          aria-controls="{{ include.name }}-{{ tab }}-tab-pane"
+          aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">
+          {{ tab }}
+        </button>
+      </li>
+    {% endfor %}
+  </ul>
+  <div class="tab-content" id="{{ include.name }}Content">
+    {% for content in include.content %}
+    <div 
+      class="tab-pane fade{% if forloop.first %} show active{% endif %}"
+      id="{{ include.name }}-{{ include.tab[forloop.index0] }}-tab-pane"
+      role="tabpanel"
+      aria-labelledby="{{ include.name }}-{{ include.tab[forloop.index0] }}-tab"
+      tabindex="0">
+      {{ content }}
+    </div>
+    {% endfor %}
+  </div>
+</div>

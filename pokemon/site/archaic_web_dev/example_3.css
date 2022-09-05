@@ -1,0 +1,33 @@
+/* Define style for the body tag */
+body
+{
+    font-family: Verdana, sans-serif;
+    font-size: 12pt;
+    background-color: slategray;
+}
+
+a
+{
+    color: red;
+}
+
+/* Define style for all elements with the outerDiv id */
+#outerDiv
+{
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    width: 70%;
+    min-width: 400px;
+    max-width: 900px;
+    border: 1px solid slategray;
+    border-radius: 5px;
+}
+
+/* Define style for every tag in this comma-seperated list */
+table, th, td
+{
+    border: 1px solid slategray;
+    padding: 5px;
+    border-collapse: collapse;
+}
