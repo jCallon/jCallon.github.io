@@ -32,7 +32,7 @@ Now then, onto the actual 'doing things' part. You do this by writing and saving
 - Write: `localStorage.setItem('item name', 'item value');`
 - Read: `localStorage.getItem('item name');`
 
-All names and values in local storage are strings, but you can easily convert them to other data types when needed using [type coversions](https://www.w3schools.com/js/js_type_conversion.asp), or as they're called in other programming languages, type casting. If you aren't familiar with the topic of a data type or would like to review some of JS's, please see [here](https://www.w3schools.com/js/js_datatypes.asp).
+All names and values in local storage are strings, but you can easily convert them to other data types when needed using [type conversions](https://www.w3schools.com/js/js_type_conversion.asp), or as they're called in other programming languages, type casting. If you aren't familiar with the topic of a data type or would like to review some of JS's, please see [here](https://www.w3schools.com/js/js_datatypes.asp).
 
 If you want to store more complex things than basic data types in local storage, like custom classes or data types, perhaps consider [JSON](https://www.w3schools.com/js/js_json_intro.asp).
 - Write: `localStorage.setItem('my object name', JSON.stringify(my_custom_object));`
