@@ -1,6 +1,14 @@
-{% for item in site.data.navigation %}
+{% assign list = site.data.navigation %}
+{% if page.dir == '/pokemon/' %}
+{% assign list = site.data.navigation.pokemon %}
+{% else %}
+{% assign list = site.data.navigation.archaic_web_dev %}
+{% endif %}
 
-  {% if page.url == item.link %}
+{% for item in list %}
+
+  {% assign psuedo_url = page.dir | append: item.link %}
+  {% if page.url == psuedo_url %}
 
     {% assign examples = item.examples %}
 
