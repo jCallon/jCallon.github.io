@@ -1,0 +1,116 @@
+<html>
+
+<head>
+	<title>Console Artist</title>
+	<link rel="stylesheet" href="console art.css">
+</head>
+
+<body>
+
+<!-- incremental... 1st can just color with color, then can add text, then can do other stuff, etc
+     could just make windoes staic on the left if I wanted -->
+
+<div class="window" id="tools">
+	<div class="title">Tools</div>
+	<select title="Draw mode" onchange="set_drawmode()">
+		<option>Color</option>
+		<option>Text</option>
+		<option>Text decoration</option>
+	</select>
+	<br>
+	
+	<!-- JS will let only one show at a time based on 'Draw mode' -->
+	<div class="display_one" id="draw_mode" title="Draw mode setting">
+		<select id="color">
+			<option>Background</option>
+			<option>Text</option>
+		</select>
+
+		<input id="text" type="text">
+
+		<select id="text_decoration">
+			<option>Bold/Bright</option>
+			<option>Dim</option>
+			<option>Underlined</option>
+			<option>Blink</option>
+			<option>Hidden</option>
+		</select>
+	</div>
+	
+	<!-- JS will assign onclick events -->
+	<br> <img class="tool" src="select.svg"  title="Select" >
+		 <img class="tool" src="move.svg"    title="Move"   >
+	     <img class="tool" src="type.svg"    title="Type"   >
+	<br> <img class="tool" src="dropper.svg" title="Dropper">
+	     <img class="tool" src="brush.svg"   title="Brush"  >
+		 <img class="tool" src="bucket.svg"  title="Bucket" >
+	<br>	 
+	
+	<!-- JS will let only one show at a time based on selected 'tool' -->
+	<div class="display_one" id="tool" title="Tool setting">
+		<select id="select">
+			<option>Box</option>
+			<option>Lasso</option>
+			<option>Invert</option>
+		</select>
+		
+		<div id="move">
+			<button>&larr;</button>
+			<button>&rarr;</button>
+			<button>&uarr;</button>
+			<button>&darr;</button>
+		</div>
+		
+		<select id="type">
+			<option>N/A</option>
+		</select>
+		
+		<select id="dropper">
+			<option>N/A</option>
+		</select>
+		
+		<input id="brush" type="number" value="1" title="Pen width">
+		
+		<input id="bucket" type="number" value="1" title="Tolerance">
+	</div>
+		 
+	<!-- JS will assign onchange events and remember previous settings -->
+	<br> <img src="width.svg"  title="Width">  <input type="number" value="80">
+	<br> <img src="height.svg" title="Height"> <input type="number" value="64">
+	<br>
+	<img src="palette.svg" title="# Colors">
+	<select>
+		<option>8</option>
+		<option>16</option>
+		<option>256</option>
+	</select>
+</div>
+
+<div class="window" id="palette">
+	<div class="title">Palette</div>
+	<table>
+	</table>
+</div>
+
+<div class="window" id="summary">
+	<div class="title">Summary</div>
+	<table>
+	</table>
+</div>
+
+<div id="canvas">
+	<table>
+	</table>
+</div>
+
+<button onclick="import_canvas()">Import</button>
+<button onclick="export_canvas()">Export</button>
+
+</body>
+
+<script src="color_maps.js"></script>
+<script src="brush.js"></script>
+<script src="formatted_character.js"></script>
+<script src="main.js"></script>
+
+</html>
