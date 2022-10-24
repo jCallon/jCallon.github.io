@@ -22,6 +22,6 @@ This website is all on my [Github](https://github.com/jCallon/jCallon.github.io)
   - Make a stream overlay - OBS, I forget what else
   - Use Git - WSL (optional)
 - Tools
-  - Console art-ist
+  - [Console artist](console_artist/console art.html)
   - (Not sure if I can accomplish this one) Retro Music Composer
   - Character generator
