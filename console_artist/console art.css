@@ -1,104 +1,104 @@
 :root
 {
-	--bg-color: rgb(255, 255, 255);  /* white */
-	--fg-color: rgb(51, 102, 153);   /* light faded blue */
-	--bg-text-color: rgb(0, 26, 51); /* dark faded blue */
-	--fg-text-color: rgb(255, 255, 255); /* white */
-	--text-size: 12pt;
-	--button-size: .2in;
+    --bg-color: rgb(255, 255, 255);  /* white */
+    --fg-color: rgb(51, 102, 153);   /* light faded blue */
+    --bg-text-color: rgb(0, 26, 51); /* dark faded blue */
+    --fg-text-color: rgb(255, 255, 255); /* white */
+    --text-size: 12pt;
+    --button-size: .2in;
 }
 
 body
 {
-	font-family: helvetica, sans-serif;
+    font-family: helvetica, sans-serif;
 }
 
 .window
 {
-	background-color: var(--bg-color);
-	color: var(--bg-text-color);
-	font-size: var(--font-size);
-	z-index: 1;
-	position: fixed;
-	border: 1px solid var(--fg-color);
+    background-color: var(--bg-color);
+    color: var(--bg-text-color);
+    font-size: var(--font-size);
+    z-index: 1;
+    position: fixed;
+    border: 1px solid var(--fg-color);
 }
 
 .window .title
 {
-	background-color: var(--fg-color);
-	color: var(--fg-text-color);
-	font-size: calc(var(--font-size) * 1.5);
-	text-align: center;
-	width: 100%;
-	cursor: grab;
+    background-color: var(--fg-color);
+    color: var(--fg-text-color);
+    font-size: calc(var(--font-size) * 1.5);
+    text-align: center;
+    width: 100%;
+    cursor: grab;
 }
 
 .window .title:active
 {
-	cursor: grabbing;
+    cursor: grabbing;
 }
 
 .window select
 {
-	width: 100%;
+    width: 100%;
 }
 
 .window input
 {
-	width: 100%;
+    width: 100%;
 }
 
 #tools
 {
-	display: none; /* Not done yet, don't display */
-	width: 1in;
-	height: 2in;
-	overflow-y: scroll;
-	top: 0px;
-	left: 0px;
+    display: none; /* Not done yet, don't display */
+    width: 1in;
+    height: 2in;
+    overflow-y: scroll;
+    top: 0px;
+    left: 0px;
 }
 
 #summary
 {
-	display: none; /* Not done yet, don't display */
+    display: none; /* Not done yet, don't display */
 }
 
 #palette
 {
-	width: 1.25in;
-	top: 0px;
-	right: 0px;
+    width: 1.25in;
+    top: 0px;
+    right: 0px;
 }
 
 #palette table
 {
-	margin: auto;
-	border-spacing: 1px;
+    margin: auto;
+    border-spacing: 1px;
 }
 
 #palette table tr td
 {
-	width:  var(--button-size);
-	height: var(--button-size);	
-	cursor: pointer;
+    width:  var(--button-size);
+    height: var(--button-size);    
+    cursor: pointer;
 }
 
 #tools .tool
 {
-	width:  var(--button-size);
-	height: var(--button-size);
-	cursor: pointer;
+    width:  var(--button-size);
+    height: var(--button-size);
+    cursor: pointer;
 }
 
 #canvas table
 {
-	border-spacing: 0px;
-	border: 1px solid var(--fg-color);
-	cursor: pointer;
+    border-spacing: 0px;
+    border: 1px solid var(--fg-color);
+    cursor: pointer;
 }
 
 #canvas table tr td
 {
-	width:  calc(var(--button-size) / 2);
-	height: var(--button-size);
+    width:  calc(var(--button-size) / 2);
+    height: var(--button-size);
 }
