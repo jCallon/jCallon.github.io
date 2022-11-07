@@ -100,8 +100,42 @@
     </table>
 </div>
 
-<div id="canvas">
+<div id="canvas_container">
     <table>
+        <tr>
+            <td id="canvas_size"><!-- Fills with current canvas dimentions --></td>
+            <td>
+                <!-- Buttons to add or remove top (up) row of #canvas -->
+                <button class="canvas_resize" id="u+">+</button>
+                <button class="canvas_resize" id="u-">-</button>
+            </td>
+            <td><!-- Empty --></td>
+        </tr>
+        <tr>
+            <td>
+                <!-- Buttons to add or remove left row of #canvas -->
+                <button class="canvas_resize" id="l+">+</button><br/>
+                <button class="canvas_resize" id="l-">-</button>
+            </td>
+            <td>
+                <!-- #canvas, where all the drawing will take place -->
+                <table id="canvas"></table>
+            </td>
+            <td>
+                <!-- Buttons to add or remove right row of #canvas -->
+                <button class="canvas_resize" id="r+">+</button><br/>
+                <button class="canvas_resize" id="r-">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td><!-- Empty --></td>
+            <td>
+                <!-- Buttons to add or remove bottom (down) row of #canvas -->
+                <button class="canvas_resize" id="d+">+</button>
+                <button class="canvas_resize" id="d-">-</button>
+            </td>
+            <td><!-- Empty --></td>
+        </tr>
     </table>
 </div>
 

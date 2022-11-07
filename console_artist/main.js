@@ -30,7 +30,8 @@ let num_colors = 256;
 //
 
 // Define canvas, JS is stupid
-let table = document.getElementById("canvas").getElementsByTagName("table")[0];
+let table = document.getElementById("canvas");
+let canvas_size = document.getElementById("canvas_size");
 let canvas;
 function create_canvas(num_rows, num_columns)
 {
@@ -43,7 +44,7 @@ function create_canvas(num_rows, num_columns)
             canvas[y][x] = new formatted_character();
     }
 }
-create_canvas(30, 60);  // TODO: use common numbers like 64 and 80
+create_canvas(20, 40);  // TODO: use common numbers like 64 and 80
 
 // Find, wipe, then recreate canvas
 function create_table()
@@ -62,9 +63,113 @@ function create_table()
         for(let x = 0; x < canvas[y].length; ++x)
             tr.appendChild(canvas[y][x].write_td());
     }
+
+    // TODO: assumes width and height will never be 0
+    canvas_size.innerHTML = `${canvas[0].length}x${canvas.length}`;
 }
 create_table();
 fill_palette(256);
+
+// Adds or remove a single column or row from the existing canvas
+// TODO: assumes width and height will never be 0
+function canvas_resize(e)
+{
+    // Get the type of operation to do
+    const op_type = e.currentTarget.id;
+    console.log(op_type);
+    let height = table.childNodes.length;
+    let width = table.childNodes[0].childNodes.length;
+    
+    // Not solid on JS switch statements...
+    if(op_type == "u+")
+    {
+        // Add a row to the top
+        canvas.unshift([]);
+        let tr = document.createElement("tr");
+        for(let i = 0; i < width; ++i)
+        {
+            canvas[0].push(new formatted_character());
+            tr.appendChild(canvas[0][i].write_td());
+        }
+        table.insertBefore(tr, table.childNodes[0]);
+        height++;
+    }
+    else if(op_type == "d+")
+    {
+        // Add a row to the bottom
+        canvas.push([]);
+        let tr = document.createElement("tr");
+        for(let i = 0; i < width; ++i)
+        {
+            canvas[height].push(new formatted_character());
+            tr.appendChild(canvas[height][i].write_td());
+        }
+        table.appendChild(tr);
+        height++;
+    }
+    else if(op_type == "l+")
+    {
+        // Add a column to the left
+        for(let i = 0; i < height; ++i)
+        {
+            canvas[i].unshift(new formatted_character());
+            table.childNodes[i].insertBefore(canvas[i][0].write_td(), table.childNodes[i].childNodes[0]);
+        }
+        width++;
+    }
+    else if(op_type == "r+")
+    {
+        // Add a column to the right
+        for(let i = 0; i < height; ++i)
+        {
+            canvas[i].push(new formatted_character());
+            table.childNodes[i].appendChild(canvas[i][width].write_td());
+        }
+        width++;
+    }
+    else if(op_type == "u-")
+    {
+        // Subtract a row from the top
+        canvas.shift();
+        table.removeChild(table.childNodes[0]);
+        height--;
+    }
+    else if(op_type == "d-")
+    {
+        // Subtract a row from the bottom
+        canvas.pop();
+        table.removeChild(table.childNodes[height-1]);
+        height--;
+    }
+    else if(op_type == "l-")
+    {
+        // Subtract a column from the left
+        for(let i = 0; i < height; ++i)
+        {
+            canvas[i].shift();
+            table.childNodes[i].removeChild(table.childNodes[i].childNodes[0]);
+        }
+        width--;
+    }
+    else if(op_type == "r-")
+    {
+        // Subtract a column from the right
+        for(let i = 0; i < height; ++i)
+        {
+            canvas[i].pop();
+            table.childNodes[i].removeChild(table.childNodes[i].childNodes[width-1]);
+        }
+        width--;
+    }
+
+    // TODO: assumes width and height will never be 0
+    canvas_size.innerHTML = `${width}x${height}`;
+}
+
+// Attach all canvas size modification buttons to onclick events
+let canvas_resize_buttons = document.getElementsByClassName("canvas_resize");
+for(let i = 0; i < canvas_resize_buttons.length; ++i)
+    canvas_resize_buttons[i].onclick = canvas_resize;
 
 // Create HTML table from bash
 function import_canvas()

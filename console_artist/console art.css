@@ -10,7 +10,13 @@
 
 body
 {
-    font-family: helvetica, sans-serif;
+    font-family:'Lucida Console',monospace;
+}
+
+button
+{
+    font-family:'Lucida Console',monospace;
+    margin: 0;
 }
 
 .window
@@ -90,14 +96,19 @@ body
     cursor: pointer;
 }
 
-#canvas table
+td
+{
+    text-align: center;
+}
+
+#canvas
 {
     border-spacing: 0px;
     border: 1px solid var(--fg-color);
     cursor: pointer;
 }
 
-#canvas table tr td
+#canvas tr td
 {
     width:  calc(var(--button-size) / 2);
     height: var(--button-size);
